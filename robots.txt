@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Abdullah-Arshad.github.io/sitemap.xml
+Sitemap: https://abdullah2409.github.io/sitemap.xml
