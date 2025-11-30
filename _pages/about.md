@@ -32,10 +32,8 @@ Currently, I am the Lead Developer at **SensAI**, an AI powered medical scribing
 I am passionate about leveraging artificial intelligence and machine learning to solve real world problems in **healthcare informatics**, including clinical decision support systems, medical natural language processing, and the design of AI powered tools that enhance patient care and clinical workflows.
 
 ## Education
+
 ---
-
-
-
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
@@ -52,6 +50,9 @@ I am passionate about leveraging artificial intelligence and machine learning to
 **Relevant Coursework:** Artificial Intelligence, Computer Networks, Distributed Systems, LLM Systems, Machine Learning, Generative AI, Operating Systems, Software Engineering
 
 ## Research Experience
+
+testing
+
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
@@ -120,6 +121,7 @@ I am passionate about leveraging artificial intelligence and machine learning to
 - Explored Few-Shot prompting techniques to improve the granularity of insights and proposed future directions for scaling analysis to audience engagement and algorithm bias
 
 ## Work Experience
+
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
@@ -141,6 +143,7 @@ I am passionate about leveraging artificial intelligence and machine learning to
 - Translated clinician feedback and edge cases into testable acceptance criteria and audit-friendly logging behavior
 
 ## Teaching Experience
+
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
@@ -157,7 +160,6 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 - Conducted tutorials, held office hours, and graded assignments for over 200 students each semester
 - Guided students through fundamental programming concepts and problem-solving techniques in C++
-
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
@@ -189,6 +191,7 @@ I am passionate about leveraging artificial intelligence and machine learning to
 - Mentored students on best practices in software development and problem-solving techniques
 
 ## Development Projects
+
 ---
 
 **CS100 Virtual Teaching Assistant** | *C++, Generative AI, Google Gemini*
@@ -207,6 +210,7 @@ Developed a web application for automated employee succession planning based on 
 Created a shell in C capable of handling conjugated commands and pipelining.
 
 ## Skills
+
 ---
 
 **Programming Languages:** Java, Python, C, C++, SQL (PostgreSQL), JavaScript, HTML/CSS, R
@@ -216,11 +220,14 @@ Created a shell in C capable of handling conjugated commands and pipelining.
 **Developer Tools:** Git, Docker, TravisCI, Google Cloud Platform (GCP), VS Code, PyCharm, IntelliJ, Eclipse
 
 **Libraries and Packages:** pandas, NumPy, Matplotlib, SciKit-Learn
+
 <!-- ![1764375253022](image/about/1764375253022.png)![1764375256891](image/about/1764375256891.png) -->
+
 <!-- ## Awards
 --- -->
 
 <!-- - Recognized as a **High Achiever** for securing 13 A*/A grades in O Levels -->
+
 <!-- - Awarded a **100% merit-based scholarship** for the entire duration of A Levels -->
 
 ---
