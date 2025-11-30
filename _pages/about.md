@@ -51,8 +51,6 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 ## Research Experience
 
-testing
-
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
