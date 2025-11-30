@@ -1,0 +1,67 @@
+/*******************************************************************************
+ * Custom styles
+ ******************************************************************************/
+
+// Styling to match the reference image with smaller, lighter text
+.about {
+  // Main section headers (Education, Research Experience, etc.)
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  // Subheaders (job titles, project names)
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+
+  // Make ALL text content smaller and lighter
+  p,
+  ul,
+  ol,
+  li,
+  em,
+  strong {
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  // Bold text should still be distinguishable but not too heavy
+  strong {
+    font-weight: 500;
+  }
+
+  // Italic text (dates, positions)
+  em {
+    font-weight: 400;
+  }
+
+  // List items - tighter spacing and smaller text
+  ul,
+  ol {
+    margin-bottom: 1rem;
+    
+    li {
+      font-size: 0.85rem;
+      margin-bottom: 0.3rem;
+      line-height: 1.5;
+    }
+  }
+
+  // Reduce spacing between sections
+  section {
+    margin-bottom: 1.5rem;
+  }
+
+  // Position/date lines
+  p:has(em),
+  p em {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+}
