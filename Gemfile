@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
-# Use github-pages gem for GitHub Pages compatibility
-gem "github-pages", "~> 232", group: :jekyll_plugins
+gem "jekyll"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
