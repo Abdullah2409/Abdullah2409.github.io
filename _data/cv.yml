@@ -31,7 +31,7 @@
         - Developed a framework leveraging LLMs to predict anxiety and depression using Urdu audio inputs.
         - Focused on integrating multimodal data and designing predictive systems for underrepresented linguistic demographics.
         - Built a pipeline for preprocessing audio data, extracting features, and training models.
-    
+
     - title: Mental Health Assessment Using Patient Records in Zanjabee Dataset
       institution: Advisors - Dr Basmaa Ali, Dr Agha Ali Raza
       year: Sep. 2024 – Present
@@ -39,7 +39,7 @@
         - Conducted research to predict anxiety and depression using anonymized patient data stored in PDF format.
         - Designed and implemented methods to extract, preprocess, and analyze clinical data for model training.
         - Applied OCR and natural language processing techniques to extract relevant text from scanned PDF files.
-    
+
     - title: Utilising LLMs for Streamlined Analysis of PTA Datasets
       institution: Advisors - Dr Zafar Ayyub Qazi, Dr Ihsan Ayyub Qazi
       year: Jan 2024 – Jun 2024
@@ -47,7 +47,7 @@
         - Designed a pipeline for analyzing PTA datasets using GPT-4, achieving a 96.8% accuracy improvement through PDF splitting and JSON structuring.
         - Applied advanced prompt engineering (Few-Shot and Chain-of-Thought) to extract insights for broadband benchmarking and KPI-based recommendations.
         - Proposed frameworks for integrating LLM-based dashboards to enhance telecom policy decision-making.
-    
+
     - title: Detecting Political Polarization in News Channels Using LLMs
       institution: Advisors - Dr Zafar Ayyub Qazi, Dr Ihsan Ayyub Qazi
       year: Sep 2024 – Dec 2024
@@ -79,7 +79,7 @@
       description:
         - Conducted tutorials, held office hours, and graded assignments for over 200 students each semester.
         - Guided students through fundamental programming concepts and problem-solving techniques in C++.
-    
+
     - title: Head of IT Department - SPADES
       institution: Lahore University of Management Sciences
       year: Feb. 2023 – Jan. 2024
@@ -87,7 +87,7 @@
         - Led the front-end development team and supervised the design and implementation of the main SPADES website.
         - Assigned projects and monitored team progress to ensure timely and high-quality deliverables.
         - Conducted workshops on front-end development, focusing on HTML, CSS, and JavaScript.
-    
+
     - title: Private Tutor
       institution: Self-Employed
       year: Jan. 2022 – Present
@@ -102,19 +102,19 @@
     - title: CS100 Virtual Teaching Assistant
       year: 2024
       description: Developed a virtual teaching assistant tailored for CS-100 students at LUMS to provide coding guidance, evaluate solutions, and offer reinforcement exercises. Implemented features such as sanity and sufficiency checks, problem-solving guidance, and quizzes, focusing on C++ and aligning with the course curriculum. (Technologies - C++, Generative AI, Google Gemini)
-    
+
     - title: Content Moderation and Toxicity Classification
       year: 2024
       description: Built a machine learning pipeline to classify toxic content (e.g., threats, insults, identity hate) using the Jigsaw Toxic Comment Dataset, leveraging models like Logistic Regression, RNNs, and Transformer-based architectures (BERT, DeBERTa). Designed preprocessing workflows and implemented Transformers for feature extraction and model training, achieving high accuracy in toxicity detection. (Technologies - BERT, Transformers, Python, Jigsaw Toxic Comment Dataset)
-    
+
     - title: Distributed Key-Value Store
       year: 2024
       description: Implemented a distributed, fault-tolerant key-value store supporting leader elections and log replication with persistence. (Technologies - Golang)
-    
+
     - title: KIYA - Succession Planning System
       year: 2024
       description: Developed a web application for automated employee succession planning based on promotion criteria. (Technologies - MERN Stack)
-    
+
     - title: Command-line Shell
       year: 2023
       description: Created a shell in C capable of handling conjugated commands and pipelining. (Technologies - C)

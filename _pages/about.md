@@ -23,6 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 I am a Computer Science graduate from [Lahore University of Management Sciences (LUMS)](https://lums.edu.pk/) in Pakistan, where I completed my Bachelor of Science in Computer Science (September 2021 – June 2025).
 
 My research interests center on **healthcare informatics**, with a particular focus on applying **AI/ML** and **LLM systems** to clinical applications. I have worked on multiple research projects involving large language models for mental health assessment, multimodal prediction of anxiety and depression, clinical data analysis, and healthcare AI systems.
@@ -192,19 +193,19 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 ---
 
-**CS100 Virtual Teaching Assistant** | *C++, Generative AI, Google Gemini*
+**CS100 Virtual Teaching Assistant** | _C++, Generative AI, Google Gemini_
 Developed a virtual teaching assistant tailored for CS-100 students at LUMS to provide coding guidance, evaluate solutions, and offer reinforcement exercises. Implemented features such as sanity and sufficiency checks, problem-solving guidance, and quizzes, focusing on C++ and aligning with the course curriculum.
 
-**Content Moderation and Toxicity Classification** | *BERT, Transformers, Python, Jigsaw Toxic Comment Dataset*
+**Content Moderation and Toxicity Classification** | _BERT, Transformers, Python, Jigsaw Toxic Comment Dataset_
 Built a machine learning pipeline to classify toxic content (e.g., threats, insults, identity hate) using the Jigsaw Toxic Comment Dataset, leveraging models like Logistic Regression, RNNs, and Transformer-based architectures (BERT, DeBERTa). Designed preprocessing workflows and implemented Transformers for feature extraction and model training, achieving high accuracy in toxicity detection.
 
-**Distributed Key-Value Store** | *Golang*
+**Distributed Key-Value Store** | _Golang_
 Implemented a distributed, fault-tolerant key-value store supporting leader elections and log replication with persistence.
 
-**KIYA - Succession Planning System** | *MERN Stack*
+**KIYA - Succession Planning System** | _MERN Stack_
 Developed a web application for automated employee succession planning based on promotion criteria.
 
-**Command-line Shell** | *C*
+**Command-line Shell** | _C_
 Created a shell in C capable of handling conjugated commands and pipelining.
 
 ## Skills

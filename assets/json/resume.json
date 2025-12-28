@@ -38,9 +38,7 @@
       "startDate": "2023-09-01",
       "endDate": "2024-12-31",
       "summary": "Conducted tutorials, held office hours, and graded assignments for over 200 students each semester.",
-      "highlights": [
-        "Guided students through fundamental programming concepts and problem-solving techniques in C++"
-      ]
+      "highlights": ["Guided students through fundamental programming concepts and problem-solving techniques in C++"]
     },
     {
       "name": "SPADES - Lahore University of Management Sciences",
@@ -113,56 +111,25 @@
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Java",
-        "Python",
-        "C",
-        "C++",
-        "SQL (PostgreSQL)",
-        "JavaScript",
-        "HTML/CSS",
-        "R"
-      ]
+      "keywords": ["Java", "Python", "C", "C++", "SQL (PostgreSQL)", "JavaScript", "HTML/CSS", "R"]
     },
     {
       "name": "Frameworks and Tools",
       "level": "Advanced",
       "icon": "fa-solid fa-toolbox",
-      "keywords": [
-        "React",
-        "Node.js",
-        "Flask",
-        "FastAPI",
-        "WordPress",
-        "Material-UI",
-        "JUnit"
-      ]
+      "keywords": ["React", "Node.js", "Flask", "FastAPI", "WordPress", "Material-UI", "JUnit"]
     },
     {
       "name": "Developer Tools",
       "level": "Advanced",
       "icon": "fa-solid fa-laptop-code",
-      "keywords": [
-        "Git",
-        "Docker",
-        "TravisCI",
-        "Google Cloud Platform (GCP)",
-        "VS Code",
-        "PyCharm",
-        "IntelliJ",
-        "Eclipse"
-      ]
+      "keywords": ["Git", "Docker", "TravisCI", "Google Cloud Platform (GCP)", "VS Code", "PyCharm", "IntelliJ", "Eclipse"]
     },
     {
       "name": "Libraries and Packages",
       "level": "Advanced",
       "icon": "fa-solid fa-book",
-      "keywords": [
-        "pandas",
-        "NumPy",
-        "Matplotlib",
-        "SciKit-Learn"
-      ]
+      "keywords": ["pandas", "NumPy", "Matplotlib", "SciKit-Learn"]
     }
   ],
   "languages": [
@@ -186,13 +153,7 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-microscope",
-      "keywords": [
-        "AI/ML",
-        "LLM Systems",
-        "Distributed Systems",
-        "Multimodal Learning",
-        "Natural Language Processing"
-      ]
+      "keywords": ["AI/ML", "LLM Systems", "Distributed Systems", "Multimodal Learning", "Natural Language Processing"]
     }
   ],
   "references": [],
@@ -200,9 +161,7 @@
     {
       "name": "Multimodal Prediction of Anxiety/Depression Using LLMs",
       "summary": "Developed a framework leveraging LLMs to predict anxiety and depression using Urdu audio inputs. Focused on integrating multimodal data and designing predictive systems for underrepresented linguistic demographics.",
-      "highlights": [
-        "Built a pipeline for preprocessing audio data, extracting features, and training models"
-      ],
+      "highlights": ["Built a pipeline for preprocessing audio data, extracting features, and training models"],
       "startDate": "2024-09-01",
       "endDate": "",
       "url": ""
