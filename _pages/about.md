@@ -187,7 +187,6 @@ I am passionate about leveraging artificial intelligence and machine learning to
 - Taught programming languages (Java, Python, C++) to A-level and university-level students
 - Prepared students for academic success by providing tailored lessons and hands-on coding exercises
 - Mentored students on best practices in software development and problem-solving techniques
-- waah shampi waah
 
 ## Development Projects
 
