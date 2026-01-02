@@ -23,13 +23,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a Computer Science graduate from [Lahore University of Management Sciences (LUMS)](https://lums.edu.pk/) in Pakistan, where I completed my Bachelor of Science in Computer Science (September 2021 – June 2025).
+I am a Computer Science graduate from [Lahore University of Management Sciences (LUMS)](https://lums.edu.pk/) in Pakistan, where I completed my Bachelor of Science in Computer Science (September 2021 – July 2025).
 
-My research interests center on **healthcare informatics**, with a particular focus on applying **AI/ML** and **LLM systems** to clinical applications. I have worked on multiple research projects involving large language models for mental health assessment, multimodal prediction of anxiety and depression, clinical data analysis, and healthcare AI systems.
+My research interests center on **healthcare informatics** and **clinical AI systems**, with a particular focus on applying **LLMs**, **multimodal ML**, and advanced NLP to real-world healthcare challenges. I have worked on multiple research projects involving large language models for mental health assessment, multimodal prediction of anxiety and depression from clinical data, and healthcare information extraction at scale.
 
-Currently, I am the Lead Developer at **SensAI**, an AI powered medical scribing platform that converts multilingual doctor–patient conversations into structured clinical notes, ICD-10 codes, and order sets, reducing documentation burden for physicians in Pakistan and the United States. This work directly addresses critical challenges in **healthcare informatics** by improving clinical workflow efficiency and documentation accuracy.
+Currently, I am the Lead Software Engineer at **SensAI** (DariaTech), an AI-powered medical scribing platform that converts multilingual doctor–patient conversations into structured clinical notes, problem lists, ICD-10 codes, and order sets. I lead the design and implementation of the platform's core architecture, optimizing performance (60–75s to 30–35s processing time) and reliability (92% to 99.5% API success rate) while reducing token usage by 40% and improving extraction accuracy by 15–20%.
 
-I am passionate about leveraging artificial intelligence and machine learning to solve real world problems in **healthcare informatics**, including clinical decision support systems, medical natural language processing, and the design of AI powered tools that enhance patient care and clinical workflows.
+I am passionate about leveraging artificial intelligence and machine learning to solve real-world problems in **healthcare informatics**, including clinical decision support systems, medical natural language processing, and scalable AI systems that enhance patient care and clinical workflows.
 
 ## Education
 
@@ -49,6 +49,14 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 **Relevant Coursework:** Artificial Intelligence, Computer Networks, Distributed Systems, LLM Systems, Machine Learning, Generative AI, Operating Systems, Software Engineering
 
+## Publications
+
+---
+
+**Mental Health Assessment Using Patient Records in Services Dataset**
+- *Under Review at British Journal of Psychiatry (Cambridge/RCPsych)*
+- *Abdullah Arshad*, Shiza Ihtisham, Basmaa Ali, Clifton Chow
+
 ## Research Experience
 
 ---
@@ -65,9 +73,10 @@ I am passionate about leveraging artificial intelligence and machine learning to
   <em>Advisors: Dr. Basmaa Ali, Dr. Agha Ali Raza</em>
 </div>
 
-- Developed a framework leveraging LLMs to predict anxiety and depression using Urdu audio inputs
-- Focused on integrating multimodal data and designing predictive systems for underrepresented linguistic demographics
-- Built a pipeline for preprocessing audio data, extracting features, and training models
+- Developed a multimodal Urdu anxiety/depression prediction system on **450 structured clinical interviews** collected at Chughtai Lab, Pakistan's largest diagnostic center
+- Fine-tuned **Qwen2-Audio** in PyTorch to capture richer prosodic and spectral cues than MFCC-based baselines
+- Augmented acoustic features with **Google Gemini Speech** transcripts (8.3% WER) and spaCy-derived lexical markers to strengthen model robustness
+- Applied **SMOTE** to address class imbalance, yielding a **15% improvement in F1** over baseline models for early mental health screening
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
@@ -78,12 +87,12 @@ I am passionate about leveraging artificial intelligence and machine learning to
   </div>
 </div>
 <div style="margin-top: 0.2em;">
-  <em>Advisors: Dr. Basmaa Ali, Dr. Agha Ali Raza</em>
+  <em>Advisors: Dr. Basmaa Ali, Dr. Clifton Chow, Shiza Ihtisham</em>
 </div>
 
-- Conducted research to predict anxiety and depression using anonymized patient data stored in PDF format
-- Designed and implemented methods to extract, preprocess, and analyze clinical data for model training
-- Applied OCR and natural language processing techniques to extract relevant text from scanned PDF files
+- Scaled depression severity modelling to the **Zanjabee** EMR dataset: 10 years of records from a suburban Boston practice covering **4,750 patients** and **16,450 encounters**
+- Replaced brittle rule-based extraction with an LLM-assisted pipeline using **GPT-5** and **Gemini 2.5 Pro** to surface context-aware symptom descriptions and map them to **PHQ-9 severity categories**
+- Improved severity classification on imbalanced data by collaborating with physicians to validate features and training **Random Forest**, **Gradient Boosting**, and **SVM** classifiers with SMOTE and class weighting
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
@@ -97,9 +106,8 @@ I am passionate about leveraging artificial intelligence and machine learning to
   <em>Advisors: Dr. Zafar Ayyub Qazi, Dr. Ihsan Ayyub Qazi</em>
 </div>
 
-- Designed a pipeline for analyzing PTA datasets using GPT-4, achieving a 96.8% accuracy improvement through PDF splitting and JSON structuring
-- Applied advanced prompt engineering (Few-Shot and Chain-of-Thought) to extract insights for broadband benchmarking and KPI-based recommendations
-- Proposed frameworks for integrating LLM-based dashboards to enhance telecom policy decision-making
+- Built a Python pipeline using **PyPDF2** to segment multi-hundred-page Pakistan Telecommunication Authority (PTA) Quality of Service (QoS) reports into city-specific clusters and convert them into structured **JSON**, reducing hallucinations and enabling reliable querying
+- Combined structural segmentation with **few-shot Chain-of-Thought** prompting, raising retrieval accuracy from **7.84% to 96.8%** and enabling robust automated broadband benchmarking and KPI-based policy reports
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
@@ -113,10 +121,8 @@ I am passionate about leveraging artificial intelligence and machine learning to
   <em>Advisors: Dr. Zafar Ayyub Qazi, Dr. Ihsan Ayyub Qazi</em>
 </div>
 
-- Developed a methodology using multimodal LLMs to analyze political polarization in video content, focusing on textual, visual, and auditory features
-- Implemented segmentation techniques to improve analysis of framing, emotional tone, and screen time allocation in news bulletins and talk shows
-- Achieved high inter-rater accuracy (0.98) across 9 videos, enhancing the reliability of bias detection
-- Explored Few-Shot prompting techniques to improve the granularity of insights and proposed future directions for scaling analysis to audience engagement and algorithm bias
+- Developed a multimodal LLM-based methodology to quantify implicit political bias, addressing a critical gap in traditional text-only analysis by integrating visual framing, emotional tone, and screen-time metrics
+- Achieved a Cohen’s Kappa of **0.98**, indicating high inter-rater reliability across **9** annotated videos; established a high quality gold standard for bias detection and future algorithmic scaling
 
 ## Work Experience
 
@@ -124,21 +130,21 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
-    <strong>Lead Developer</strong>, SensAI – AI Physician Assistant Platform
+    <strong>Lead Software Engineer</strong>, SensAI – AI Physician Assistant Platform
   </div>
   <div style="white-space: nowrap;">
     September 2025 – Present
   </div>
 </div>
 <div style="margin-top: 0.2em;">
-  Lahore, Pakistan
+  DariaTech, Lahore, Pakistan
 </div>
 
-- Building SensAI, an AI-powered medical scribing platform that converts multilingual doctor–patient conversations into structured notes, problem lists, ICD-10 codes, and order sets, reducing documentation burden for physicians in Pakistan and the United States
-- Designed the system architecture and SRS for five core modules — Notetaking, Porus (clinical chatbot), Yoda (LLM query engine), Avatar (3D risk visualization), and Wenhsiu (assessment workspace) — in close collaboration with supervising physicians
-- Authored detailed workflows and UI states for Allergies, Medications, Social History, Habits, and OBGYN bins, including safety alerts, incomplete-data flags, and ethical rules such as delete vs. discontinue for medications
-- Specified functional and non-functional requirements for core infrastructure features like Pause, offline cache, secure offline mode, and model status indicators to ensure HIPAA/GDPR-aligned handling of clinical audio and PHI
-- Translated clinician feedback and edge cases into testable acceptance criteria and audit-friendly logging behavior
+- Led design and implementation of SensAI, an AI-powered medical scribing platform that converts multilingual doctor–patient conversations into structured notes, problem lists, ICD-10 codes, and order sets
+- Refactored the monolithic transcription flow into 11 parallel Gemini bin extractors with real-time WebSocket streaming, cutting total processing time from **60–75s to 30–35s** and time-to-first-result from **60s to 3–5s**
+- Improved reliability by adding exponential-backoff retries and an IndexedDB-based offline audio queue, raising API success rate from **92% to 99.5%** and eliminating offline data loss
+- Reduced Gemini token usage per request by **40%** via context caching and domain-specific few-shot prompts, while improving extraction accuracy by **15–20%** on complex clinical fields (medications, diagnoses, ICD codes)
+- Optimized backend performance with atomic database updates, smart polling with WebSocket fallback, and conditional bin extraction, cutting database round-trips from **15 to 6** queries per visit and lowering redundant polling traffic by **75%**
 
 ## Teaching Experience
 
@@ -191,21 +197,22 @@ I am passionate about leveraging artificial intelligence and machine learning to
 ## Development Projects
 
 ---
-
 **CS100 Virtual Teaching Assistant** | _C++, Generative AI, Google Gemini_
-Developed a virtual teaching assistant tailored for CS-100 students at LUMS to provide coding guidance, evaluate solutions, and offer reinforcement exercises. Implemented features such as sanity and sufficiency checks, problem-solving guidance, and quizzes, focusing on C++ and aligning with the course curriculum.
+- Developed a virtual teaching assistant tailored for CS-100 students at LUMS to provide coding guidance, evaluate solutions, and offer reinforcement exercises.
+- Implemented features such as sanity and sufficiency checks, problem-solving guidance, and quizzes, focusing on C++ and aligning with the course curriculum.
 
 **Content Moderation and Toxicity Classification** | _BERT, Transformers, Python, Jigsaw Toxic Comment Dataset_
-Built a machine learning pipeline to classify toxic content (e.g., threats, insults, identity hate) using the Jigsaw Toxic Comment Dataset, leveraging models like Logistic Regression, RNNs, and Transformer-based architectures (BERT, DeBERTa). Designed preprocessing workflows and implemented Transformers for feature extraction and model training, achieving high accuracy in toxicity detection.
+- Built a machine learning pipeline to classify toxic content (e.g., threats, insults, identity hate) using the Jigsaw Toxic Comment Dataset, leveraging models like Logistic Regression, RNNs, and Transformer-based architectures (BERT, DeBERTa).
+- Designed preprocessing workflows and implemented Transformers for feature extraction and model training, achieving high accuracy in toxicity detection.
 
 **Distributed Key-Value Store** | _Golang_
-Implemented a distributed, fault-tolerant key-value store supporting leader elections and log replication with persistence.
+- Implemented a distributed, fault-tolerant key-value store supporting leader elections and log replication with persistence.
 
 **KIYA - Succession Planning System** | _MERN Stack_
-Developed a web application for automated employee succession planning based on promotion criteria.
+- Developed a web application for automated employee succession planning based on promotion criteria.
 
 **Command-line Shell** | _C_
-Created a shell in C capable of handling conjugated commands and pipelining.
+- Created a shell in C capable of handling conjugated commands and pipelining.
 
 ## Skills
 
