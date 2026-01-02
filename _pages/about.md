@@ -23,7 +23,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
 I am a Computer Science graduate from [Lahore University of Management Sciences (LUMS)](https://lums.edu.pk/) in Pakistan, where I completed my Bachelor of Science in Computer Science (September 2021 – June 2025).
 
 My research interests center on **healthcare informatics**, with a particular focus on applying **AI/ML** and **LLM systems** to clinical applications. I have worked on multiple research projects involving large language models for mental health assessment, multimodal prediction of anxiety and depression, clinical data analysis, and healthcare AI systems.
@@ -230,5 +229,3 @@ Created a shell in C capable of handling conjugated commands and pipelining.
 <!-- - Awarded a **100% merit-based scholarship** for the entire duration of A Levels -->
 
 ---
-
-**Best way to contact me is via Email: abdullaharshad2409@gmail.com**
