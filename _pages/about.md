@@ -27,9 +27,9 @@ I am a Computer Science graduate from [Lahore University of Management Sciences 
 
 My research interests center on **healthcare informatics** and **clinical AI systems**, with a particular focus on applying **LLMs**, **multimodal ML**, and advanced NLP to real-world healthcare challenges. I have worked on multiple research projects involving large language models for mental health assessment, multimodal prediction of anxiety and depression from clinical data, and healthcare information extraction at scale.
 
-Currently, I am the Lead Software Engineer at **SensAI** (DariaTech), an AI-powered medical scribing platform that converts multilingual doctor–patient conversations into structured clinical notes, problem lists, ICD-10 codes, and order sets. I lead the design and implementation of the platform's core architecture, optimizing performance (60–75s to 30–35s processing time) and reliability (92% to 99.5% API success rate) while reducing token usage by 40% and improving extraction accuracy by 15–20%.
+Currently, I am the Lead Software Engineer at **SensAI** (DariaTech), an AI-powered medical scribing platform that converts multilingual doctor–patient conversations into structured clinical notes, problem lists, ICD-10 codes, and order sets.
 
-I am passionate about leveraging artificial intelligence and machine learning to solve real-world problems in **healthcare informatics**, including clinical decision support systems, medical natural language processing, and scalable AI systems that enhance patient care and clinical workflows.
+I am passionate about leveraging artificial intelligence and machine learning to solve real world problems in **healthcare informatics**, including clinical decision support systems, medical natural language processing, and scalable AI systems that enhance patient care and clinical workflows.
 
 ## Education
 
@@ -141,7 +141,7 @@ I am passionate about leveraging artificial intelligence and machine learning to
   DariaTech, Lahore, Pakistan
 </div>
 
-- Led design and implementation of SensAI, an AI-powered medical scribing platform that converts multilingual doctor–patient conversations into structured notes, problem lists, ICD-10 codes, and order sets
+- Leading the design and implementation of SensAI, an AI-powered medical scribing platform that converts multilingual doctor–patient conversations into structured notes, problem lists, ICD-10 codes, and order sets
 - Refactored the monolithic transcription flow into 11 parallel Gemini bin extractors with real-time WebSocket streaming, cutting total processing time from **60–75s to 30–35s** and time-to-first-result from **60s to 3–5s**
 - Improved reliability by adding exponential-backoff retries and an IndexedDB-based offline audio queue, raising API success rate from **92% to 99.5%** and eliminating offline data loss
 - Reduced Gemini token usage per request by **40%** via context caching and domain-specific few-shot prompts, while improving extraction accuracy by **15–20%** on complex clinical fields (medications, diagnoses, ICD codes)
