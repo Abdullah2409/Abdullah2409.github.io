@@ -54,7 +54,8 @@ I am passionate about leveraging artificial intelligence and machine learning to
 ---
 
 **Mental Health Assessment Using Patient Records in Services Dataset**
-- *Under Review at British Journal of Psychiatry (Cambridge/RCPsych)*
+
+- *[Paper](https://docs.google.com/document/d/1vyqsw95oUw18fCOnvUrXI8mZ1_y9RY1bNJLXzdyqlWo/edit?usp=sharing) Under Review at British Journal of Psychiatry (Cambridge/RCPsych)*
 - *Abdullah Arshad*, Shiza Ihtisham, Basmaa Ali, Clifton Chow
 
 ## Research Experience
@@ -197,21 +198,27 @@ I am passionate about leveraging artificial intelligence and machine learning to
 ## Development Projects
 
 ---
+
 **CS100 Virtual Teaching Assistant** | _C++, Generative AI, Google Gemini_
+
 - Developed a virtual teaching assistant tailored for CS-100 students at LUMS to provide coding guidance, evaluate solutions, and offer reinforcement exercises.
 - Implemented features such as sanity and sufficiency checks, problem-solving guidance, and quizzes, focusing on C++ and aligning with the course curriculum.
 
 **Content Moderation and Toxicity Classification** | _BERT, Transformers, Python, Jigsaw Toxic Comment Dataset_
+
 - Built a machine learning pipeline to classify toxic content (e.g., threats, insults, identity hate) using the Jigsaw Toxic Comment Dataset, leveraging models like Logistic Regression, RNNs, and Transformer-based architectures (BERT, DeBERTa).
 - Designed preprocessing workflows and implemented Transformers for feature extraction and model training, achieving high accuracy in toxicity detection.
 
 **Distributed Key-Value Store** | _Golang_
+
 - Implemented a distributed, fault-tolerant key-value store supporting leader elections and log replication with persistence.
 
 **KIYA - Succession Planning System** | _MERN Stack_
+
 - Developed a web application for automated employee succession planning based on promotion criteria.
 
 **Command-line Shell** | _C_
+
 - Created a shell in C capable of handling conjugated commands and pipelining.
 
 ## Skills
