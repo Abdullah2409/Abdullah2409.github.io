@@ -64,23 +64,6 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
-    <strong>Multimodal Prediction of Anxiety/Depression Using LLMs</strong>
-  </div>
-  <div style="white-space: nowrap;">
-    September 2024 – Present
-  </div>
-</div>
-<div style="margin-top: 0.2em;">
-  <em>Advisors: Dr. Basmaa Ali, Dr. Agha Ali Raza</em>
-</div>
-
-- Developed a multimodal Urdu anxiety/depression prediction system on **450 structured clinical interviews** collected at Chughtai Lab, Pakistan's largest diagnostic center
-- Fine-tuned **Qwen2-Audio** in PyTorch to capture richer prosodic and spectral cues than MFCC-based baselines
-- Augmented acoustic features with **Google Gemini Speech** transcripts (8.3% WER) and spaCy-derived lexical markers to strengthen model robustness
-- Applied **SMOTE** to address class imbalance, yielding a **15% improvement in F1** over baseline models for early mental health screening
-
-<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-  <div>
     <strong>Mental Health Assessment Using Patient Records in Zanjabee Dataset</strong>
   </div>
   <div style="white-space: nowrap;">
@@ -94,6 +77,39 @@ I am passionate about leveraging artificial intelligence and machine learning to
 - Scaled depression severity modelling to the **Zanjabee** EMR dataset: 10 years of records from a suburban Boston practice covering **4,750 patients** and **16,450 encounters**
 - Replaced brittle rule-based extraction with an LLM-assisted pipeline using **GPT-5** and **Gemini 2.5 Pro** to surface context-aware symptom descriptions and map them to **PHQ-9 severity categories**
 - Improved severity classification on imbalanced data by collaborating with physicians to validate features and training **Random Forest**, **Gradient Boosting**, and **SVM** classifiers with SMOTE and class weighting
+
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+  <div>
+    <strong>Mental Health Assessment Using Patient Records in Services Dataset</strong>
+  </div>
+  <div style="white-space: nowrap;">
+    January 2025 – January 2026
+  </div>
+</div>
+<div style="margin-top: 0.2em;">
+  <em>Advisors: Basmaa Ali, Clifton Chow, Shiza Ihtisham</em>
+</div>
+
+- Quantified depression prevalence/treatment and somatic vs. cognitive symptom expression in a tertiary-care medicine cohort in urban Pakistan (**N=356**), benchmarking patterns against Global North reports
+- Built Python NLP pipelines to preprocess unstructured clinical notes into an encounter-level **binary symptom vector** feature matrix and generate interpretable visualizations (word clouds, normalized heatmaps)
+- Predicted PHQ-9 scores for unscreened patients (**n=59**) by training a **Random Forest** on observed PHQ-9 encounters (**n=297**) within the extracted feature matrix
+
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+  <div>
+    <strong>Multimodal Prediction of Anxiety/Depression Using LLMs</strong>
+  </div>
+  <div style="white-space: nowrap;">
+    September 2024 – July 2025
+  </div>
+</div>
+<div style="margin-top: 0.2em;">
+  <em>Advisors: Dr. Basmaa Ali, Dr. Agha Ali Raza</em>
+</div>
+
+- Developed a multimodal Urdu anxiety/depression prediction system on **450 structured clinical interviews** collected at Chughtai Lab, Pakistan's largest diagnostic center
+- Fine-tuned **Qwen2-Audio** in PyTorch to capture richer prosodic and spectral cues than MFCC-based baselines
+- Augmented acoustic features with **Google Gemini Speech** transcripts (8.3% WER) and spaCy-derived lexical markers to strengthen model robustness
+- Applied **SMOTE** to address class imbalance, yielding a **15% improvement in F1** over baseline models for early mental health screening
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
