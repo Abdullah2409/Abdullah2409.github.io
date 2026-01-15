@@ -55,7 +55,7 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 **Mental Health Assessment Using Patient Records in Services Dataset**
 
-- *[Paper](https://docs.google.com/document/d/1vyqsw95oUw18fCOnvUrXI8mZ1_y9RY1bNJLXzdyqlWo/edit?usp=sharing) Under Review at British Journal of Psychiatry (Cambridge/RCPsych)*
+- *[Paper](assets/pdf/draft_Proof_hi.pdf) Under Review at British Journal of Psychiatry (Cambridge/RCPsych)*
 - *Abdullah Arshad*, Shiza Ihtisham, Basmaa Ali, Clifton Chow
 
 ## Research Experience
