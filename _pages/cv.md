@@ -26,6 +26,6 @@ nav_order: 5
     </style>
 </head>
 <body>
-    <iframe src="{{ '/assets/pdf/Abdullah_Arshad_CV_Research.pdf' | relative_url }}"></iframe>
+    <iframe src="{{ '/assets/pdf/Abdullah_Arshad_CV.pdf' | relative_url }}"></iframe>
 </body>
 </html>
