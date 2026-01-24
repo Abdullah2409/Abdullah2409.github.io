@@ -53,7 +53,7 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 ---
 
-**Mental Health Assessment Using Patient Records in Services Dataset**
+**A Clinical Analysis of the Presentation of Depression in Pakistan**
 
 - *[Paper](assets/pdf/draft_Proof_hi.pdf) Under Review at British Journal of Psychiatry (Cambridge/RCPsych)*
 - ***Abdullah Arshad***, Shiza Ihtisham, Basmaa Ali, Clifton Chow
@@ -80,7 +80,7 @@ I am passionate about leveraging artificial intelligence and machine learning to
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
   <div>
-    <strong>Mental Health Assessment Using Patient Records in Services Dataset</strong>
+    <strong>A Clinical Analysis of the Presentation of Depression in Pakistan</strong>
   </div>
   <div style="white-space: nowrap;">
     January 2025 – January 2026
